@@ -19,4 +19,4 @@ def test_plugins():
 
 if __name__ == "__main__":
     mods = test_plugins()
-    print(mods)  # List of loaded mods
+    print(mods)
