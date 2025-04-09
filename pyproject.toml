@@ -1,0 +1,22 @@
+[build-system]
+build-backend = "poetry.core.masonry.api"
+requires = ["poetry-core>=1.0.0"]
+
+[tool.poetry]
+authors = ["lxgr-linux <<>>"]
+description = "A pokemon like game for the terminal"
+license = "GPLv3"
+name = "pokete"
+packages = [
+    { include = "mods" },
+    { include = "pokete_classes" }
+]
+version = "0.8.0"
+[tool.poetry.dependencies]
+python = "^3.8"
+scrap-engine = "^1.3.0"
+
+[tool.poetry.dev-dependencies]
+
+[tool.poetry.plugins."pokete_mods"]
+example = "mods.example"
