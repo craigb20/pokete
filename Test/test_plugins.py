@@ -32,5 +32,5 @@ def test_other_plugins():
     my_mods = {
     "pokete_mods": []}
     mod_obs = try_plugin(my_mods)
-    assert mpds_obs == []
+    assert mod_obs == []
     assert len(mod_obs) == 0
