@@ -1,5 +1,7 @@
 import importlib.metadata
 import sys
+import os
+
 sys.path.insert(0, os.path.abspath(os.path.join(os.path.dirname(__file__), "..")))
 from pokete_classes.mods import ModError
 import variables as var
