@@ -19,7 +19,10 @@ jobs:
           python-version: '3.12'
 
       - name: install deps
-        run: pip install scrap_engine pyyaml
+        run: |
+          pip install scrap_engine pyyaml
+          pip install pytest
+          pip install coverage
 
       - name: gen-wiki
         run: python util.py wiki
@@ -41,4 +44,8 @@ jobs:
           fetch-depth: 0
           github_token: ${{ secrets.GITHUB_TOKEN }}
           force: false
+        
+      - name: Run tests
+        run: |
+          coverage run -m pytest  -v -s 
 
