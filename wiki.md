@@ -141,6 +141,7 @@ You can find different versions of this wiki:
    8. [Poison attacks](#poison-attacks)
        1. [Poison Bite](#poison-bite)
        2. [Poison Thorn](#poison-thorn)
+       3. [Poison Wrap](#poison-wrap)
    9. [Stone attacks](#stone-attacks)
        1. [Brick Throw](#brick-throw)
        2. [Dazzle](#dazzle)
@@ -749,6 +750,7 @@ A very small whatever that sticks out of the ground.
 - Can be found in:
    + Route 0
    + The Fields of Agrawos
+   + Town of Watermill
 - Evolves to [Dicki](#dicki) at level 35
 
 #### Raupathor day
@@ -1105,6 +1107,7 @@ A not at all suspicious plant.
 - Can be found in:
    + The Fields of Agrawos
    + Agrawos
+   + Town of Watermill
 - Does not evolve
 
 
@@ -1876,7 +1879,7 @@ A freshwater fighting fish Pokete.
    + [Bubble Gun](#bubble-gun)
 - Active: Always
 - Can be found in:
-   + Nowhere
+   + Town of Watermill
 - Does not evolve
 
 
@@ -1906,7 +1909,7 @@ A crusty Pokete that will pinch your toes and check whether or not you borrowed 
    + [Shell Pinch](#shell-pinch)
 - Active: Always
 - Can be found in:
-   + Nowhere
+   + Town of Watermill
 - Does not evolve
 
 
@@ -1972,7 +1975,7 @@ Hans! Get ze Flammenwerfer!
 - Minimum Level: 15
 - Attack factor: 2.5
 - Missing chance: 0.3
-- Attack points: 10
+- Attack points: 20
 - Effect: [Burning](#burning)
 
 #### Fire Ball
@@ -1982,7 +1985,7 @@ Casts a fireball at the enemy.
 - Minimum Level: 25
 - Attack factor: 4
 - Missing chance: 0
-- Attack points: 10
+- Attack points: 15
 - Effect: None
 
 ### Flying attacks
@@ -2165,7 +2168,7 @@ Stabs a giant ice spike into the enemy.
 - Minimum Level: 20
 - Attack factor: 5
 - Missing chance: 0.3
-- Attack points: 10
+- Attack points: 20
 - Effect: None
 
 #### Spikes
@@ -2216,7 +2219,7 @@ The hardest bite you can think of.
 - Minimum Level: 30
 - Attack factor: 8
 - Missing chance: 0.1
-- Attack points: 5
+- Attack points: 40
 - Effect: None
 
 #### Choker
@@ -2421,6 +2424,16 @@ Stabs a venomous thorn into the enemy's flesh.
 - Attack points: 20
 - Effect: [Poison](#poison)
 
+#### Poison Wrap
+Grapple an enemy into venomous bear hug
+
+- Type: [Poison](#types)
+- Minimum Level: 20
+- Attack factor: 1.5
+- Missing chance: 0.2
+- Attack points: 30
+- Effect: [Poison](#poison)
+
 ### Stone attacks
 #### Pebble Fire
 Fires pebbles at the enemy and makes it blind.
@@ -2429,7 +2442,7 @@ Fires pebbles at the enemy and makes it blind.
 - Minimum Level: 0
 - Attack factor: 1
 - Missing chance: 0
-- Attack points: 5
+- Attack points: 10
 - Effect: None
 
 #### Sand Throw
@@ -2439,7 +2452,7 @@ Throws sand at the enemy and makes it blind.
 - Minimum Level: 0
 - Attack factor: 1
 - Missing chance: 0
-- Attack points: 5
+- Attack points: 10
 - Effect: None
 
 #### Polish
@@ -2479,7 +2492,7 @@ Pounds the enemy with the Pokete's full weight.
 - Minimum Level: 15
 - Attack factor: 5
 - Missing chance: 0.1
-- Attack points: 5
+- Attack points: 10
 - Effect: None
 
 #### Dia Stab
@@ -2489,7 +2502,7 @@ Stabs the enemy with a giant diamond spike.
 - Minimum Level: 15
 - Attack factor: 5
 - Missing chance: 0.1
-- Attack points: 5
+- Attack points: 10
 - Effect: None
 
 #### Dazzle
