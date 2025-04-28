@@ -54,7 +54,7 @@ attacks = {
         "types": ["normal"],
         "effect": None,
         "is_generic": False,
-        "ap": 5,
+        "ap": 40,
     },
     "chocer": {
         "name": "Choker",
@@ -155,6 +155,20 @@ attacks = {
         "is_generic": False,
         "ap": 20,
     },
+    "poison_wrap":{
+        "name": "Poison Wrap",
+        "factor": 1.5,
+        "action": None,
+        "world_action": "",
+        "move": ["attack", "downgrade"],
+        "miss_chance": 0.2,
+        "min_lvl": 20,
+        "desc": "Grapple an enemy into venomous bear hug",
+        "types": ["poison"],
+        "effect": "poison",
+        "is_generic": False,
+        "ap": 30,
+    },
     # stone attacks
     "pepple_fire": {
         "name": "Pebble Fire",
@@ -168,7 +182,7 @@ attacks = {
         "types": ["stone"],
         "effect": None,
         "is_generic": True,
-        "ap": 5,
+        "ap": 10,
     },
     "sand_throw": {
         "name": "Sand Throw",
@@ -182,7 +196,7 @@ attacks = {
         "types": ["stone"],
         "effect": None,
         "is_generic": False,
-        "ap": 5,
+        "ap": 10,
     },
     "politure": {
         "name": "Polish",
@@ -238,7 +252,7 @@ attacks = {
         "types": ["stone"],
         "effect": None,
         "is_generic": True,
-        "ap": 5,
+        "ap": 10,
     },
     "dia_stab": {
         "name": "Dia Stab",
@@ -252,7 +266,7 @@ attacks = {
         "types": ["stone"],
         "effect": None,
         "is_generic": False,
-        "ap": 5,
+        "ap": 10,
     },
     "dazzle": {
         "name": "Dazzle",
@@ -423,7 +437,7 @@ attacks = {
         "types": ["fire"],
         "effect": "burning",
         "is_generic": True,
-        "ap": 10,
+        "ap": 20,
     },
 
     "fire_ball": {
@@ -438,7 +452,7 @@ attacks = {
         "types": ["fire"],
         "effect": None,
         "is_generic": True,
-        "ap": 10,
+        "ap": 15,
     },
     # flying attacks
     "flying": {
@@ -949,7 +963,7 @@ attacks = {
         "types": ["ice"],
         "effect": None,
         "is_generic": True,
-        "ap": 10,
+        "ap": 20,
     },
     "spikes": {
         "name": "Spikes",
