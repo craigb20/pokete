@@ -68,7 +68,8 @@ You can find different versions of this wiki:
        2. [Diamondos](#diamondos)
        3. [Lilstone](#lilstone)
        4. [Poundi](#poundi)
-       5. [Steini](#steini)
+       5. [Rare Steini](#rare-steini)
+       6. [Steini](#steini)
    10. [Undead Poketes](#undead-poketes)
        1. [Angrilo](#angrilo)
        2. [Bablbam](#bablbam)
@@ -149,9 +150,10 @@ You can find different versions of this wiki:
        4. [Dia Stab](#dia-stab)
        5. [Pebble Fire](#pebble-fire)
        6. [Polish](#polish)
-       7. [Rock Smash](#rock-smash)
-       8. [Sand Throw](#sand-throw)
-       9. [Stone crush](#stone-crush)
+       7. [Rock & Roll](#rock-&-roll)
+       8. [Rock Smash](#rock-smash)
+       9. [Sand Throw](#sand-throw)
+       10. [Stone crush](#stone-crush)
    10. [Undead attacks](#undead-attacks)
        1. [Confusion](#confusion)
        2. [Heart Touch](#heart-touch)
@@ -1550,6 +1552,36 @@ A powerful and heavy stone Pokete that lives in mountain caves.
 - Does not evolve
 
 
+#### Rare Steini
+A special version of Steini, gifted only a few trainers.
+
+```
+ +-------+ 
+ | o   o | 
+ |  ---  | 
+ +-------+ 
+
+```
+
+- Type: [Stone](#types)
+- Health points: 30
+- Attack factor: 5
+- Defense factor: 5
+- Initiative: 5
+- Missing chance: 2
+- Rarity: 1
+- Loosing experience: 2
+- Attacks:
+   + [Tackle](#tackle)
+   + [Polish](#polish)
+   + [Rock & Roll](#rock-&-roll)
+   + [Brick Throw](#brick-throw)
+- Active: Always
+- Can be found in:
+   + Nowhere
+- Does not evolve
+
+
 #### Steini
 A squared stone that can be readily found just lying around.
 
@@ -2435,6 +2467,16 @@ Grapple an enemy into venomous bear hug
 - Effect: [Poison](#poison)
 
 ### Stone attacks
+#### Rock & Roll
+Plays loud music to damage eardrums.
+
+- Type: [Stone](#types)
+- Minimum Level: 1
+- Attack factor: 2.75
+- Missing chance: 0.1
+- Attack points: 15
+- Effect: None
+
 #### Pebble Fire
 Fires pebbles at the enemy and makes it blind.
 
