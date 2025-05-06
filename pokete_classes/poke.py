@@ -177,7 +177,7 @@ can't have more than 4 attacks!"
             return True
         return False
 
-        def lvl(self):
+    def lvl(self):
         """RETURNS:
                 Current level (XP reduced by half)"""
         return int(math.sqrt(2 * self.xp + 1))
