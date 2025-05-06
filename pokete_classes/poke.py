@@ -159,7 +159,7 @@ can't have more than 4 attacks!"
         for atc, ap in zip(self.attack_obs, aps):
             atc.set_ap(ap)
 
-        def add_xp(self, _xp):
+    def add_xp(self, _xp):
         """Adds xp to the current pokete
         ARGS:
             _xp: Amount of xp added to the current xp
