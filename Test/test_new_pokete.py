@@ -10,15 +10,15 @@ from pokete import read_save
 
 
 def test_rare_steini_defined():
-    assert "rare_steini" in pokes, "rare steini is not defined in poketes.py"
+    assert "rare_steini" in pokes
 
 
 def test_rare_steini_in_deck():
     session_info = read_save()
     player_pokes = session_info.get("pokes", {})
     poke_names = [poke["name"] for poke in player_pokes.values()]
-    assert "rare_steini" in poke_names, "rare steini is not in the players deck"
+    assert "rare_steini" in poke_names
 
 
 def test_attack_defined():
-    assert "rock_and_roll" in attacks, "rock and roll attack is not defined"
+    assert "rock_and_roll" in attacks
